@@ -2,19 +2,21 @@
 
 ### The ecosystem for computational chemistry
 
-Independent tools for drawing structures, running calculations, exploring results, and sharing scientific data.
+**Draw → Submit → Calculate → Analyze.** Independent tools for drawing structures, submitting jobs, running calculations, exploring results, and sharing scientific data.
 
-**[Explore vibyverse](https://vibyverse.com/)** · **[Developer hub](https://vibe-qc.com/documentation/)** · **[Research & publications](https://vibyverse.com/research/)**
+**[Explore vibyverse](https://vibyverse.com/)** · **[Documentation](https://vibyverse.com/documentation/)** · **[Research & publications](https://vibyverse.com/research/)**
 
 ### Five projects, one shared curiosity
 
 | | Project | Start here |
 | :--- | :--- | :--- |
-| **01 · Sketch** | **[vibe-sketch](https://vibe-qc.com/products/vibe-sketch/)** | Draw chemical structures, reactions, publication graphics and calculation inputs. |
-| **02 · Submit** | **[vibe-queue](https://github.com/vibyverse/vibe-queue)** | Submit and track jobs across configured local, remote and cluster resources. |
+| **01 · Sketch** | **[vibe-sketcher](https://vibyverse.com/vibe-sketcher)** | Draw chemical structures, reactions, publication graphics and calculation inputs. |
+| **02 · Submit** | **[vibe-scheduler](https://github.com/vibyverse/vibe-scheduler)** | Submit and track jobs across configured local, remote and cluster resources. |
 | **03 · Calculate** | **[vibe-qc](https://github.com/vibyverse/vibe-qc)** | Explore electronic structure for molecules and periodic solids. |
-| **04 · Analyze** | **[vibe-view](https://github.com/vibyverse/vibe-view)** | Inspect structures, orbitals, densities and spectra. |
+| **04 · Analyze** | **[vibe-viewer](https://github.com/vibyverse/vibe-viewer)** | Inspect structures, orbitals, densities and spectra. |
 | **+ · Connect** | **[QVF](https://github.com/vibyverse/qvf)** | Preserve scientific data and provenance in an independent, shareable archive format. |
+
+The former names **vibe-sketch**, **vibe-queue** and **vibe-view** are deprecated; the tools are now **vibe-sketcher**, **vibe-scheduler** and **vibe-viewer**, respectively. **vibe-qc** and **QVF** keep their names, and the Scheduler command remains **`vq`**.
 
 ### Science with context
 
